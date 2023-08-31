@@ -22,15 +22,16 @@
 </head>
 <body>
     <main>
-        <div class="card">
+        <img src="assets/logo.jpg" alt="" srcset="">
+        <div class="card bg-dark">
             <h4 class="card-header">Sobre nós:</h4>
             <div class="card-body">
-                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat facere suscipit nihil cupiditate asperiores in enim quas impedit dolor. Eaque hic porro nemo in, repellendus laborum temporibus excepturi repellat eos?</p>
+                <p class="card-text">Somos um blog que cobre o Brasileirão, trazendo estatíscas, tabelas e a rodada da semana.</p>
                 <a href="content/index.html"><button class="btn btn-success">Veja mais</button></a>
             </div>
         </div>
             
-        <div class="contador">
+        <div class="contador bg-dark">
             <h6>Contador de visitas:</h6>
             <h4><?php echo $numeroDeVisitas; ?></h4>
         </div>

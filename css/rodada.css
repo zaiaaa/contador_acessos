@@ -70,7 +70,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
     #ct-rodadas{
         flex-direction: row;
     }

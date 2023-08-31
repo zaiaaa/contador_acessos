@@ -20,10 +20,13 @@
     color: #A7F901;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
     #section{
-        padding-top: 13rem;    
+        padding-top: 10rem;    
         text-align: center;
+    }
+    .table{
+        width: 60%;
     }
 }
 

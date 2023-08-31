@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 main{
-    background-color:#1f1f1f;
+    background-color: #073071;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,9 +14,23 @@ main{
     align-items: center;
     position: relative;
 }
+
+main img{
+    margin-bottom: 1rem;
+    width: 10%;
+    border-radius: 50%;
+}
 .card{
     margin: 0 15rem;
+    background-color: #073071;
 }
+.card h4, .card h1, .card p{
+    color: #A7F901;
+}
+
+
+
+
 .card .card-header{
     text-align: center;
 }
@@ -41,7 +55,6 @@ main{
 .contador h4{
     text-align: center;
 }
-
 
 /*index de conteudo*/
 
@@ -81,4 +94,28 @@ section{
 
 .texto h1{
     text-align: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .noticia img{
+        width: 60%;
+    }
+    .noticia .texto{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .noticia img{
+        width: 100%;
+    }
+    .noticia .texto{
+        width: 100%;
+    }
+}
+
+footer{
+    text-align: center;
+    background-color: #082961;
+    color: #A7F901;
 }

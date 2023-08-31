@@ -1,6 +1,5 @@
 section{
     width: 100%;
-    height: 100vh;
     background-color: #002a74;
     display: flex;
     justify-content: center;
@@ -8,7 +7,7 @@ section{
 }
 .pesquisa{
     position: relative;
-    margin-top: 12rem;
+    margin-top: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +49,7 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #072e70;
+    background-color: #163f86;
     color: #A7F901;
     margin: 3rem 2rem;
     padding: 1rem;
