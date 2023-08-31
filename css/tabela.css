@@ -1,0 +1,73 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    background-color: #002a74; 
+}
+
+.section table{
+    margin-top: 10rem;
+    width: 40%;
+    padding: 1rem;
+    background-color: #002a74;
+}
+
+.section table{
+    color: #A7F901;
+}
+
+.section h1{
+    margin-top: 8rem;
+    margin-bottom: -8rem;
+    text-align: center;
+    color: #A7F901;
+}
+
+@media screen and (max-width: 600px) {
+    .section h1{
+        margin-top: 11rem;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center ;
+    }
+    th{
+        display: none;
+    }
+}
+
+.table img{
+    width: 1.5rem;
+    margin-right: .5rem;
+}
+
+.table .time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pos{
+    width: 5%;
+}
+.equipeT{
+    text-align: center;
+}
+.pontos{
+    text-align: center;
+    font-weight: 700;
+}
+.jogos{
+    text-align: center;
+}
+
+.golsContra{
+    text-align: center;
+}
+
+.table-info{
+    color: #000;
+}

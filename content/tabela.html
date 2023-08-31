@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/tabela.css">
+</head>
+<body>
+  
+  <header>
+    <a href="./index.html"><img src="../assets/logo.jpg" alt="" srcset=""></a>
+    <nav>
+        <li><a href="./tabela.html">Tabela</a></li>
+        <li><a href="./rodada.html">Rodada da semana</a></li>
+        <li><a href="./artilheiros.html">Artilheiros</a></li>
+        <li><a href="./pesquisa.html">Pesquisa de jogadores</a></li>
+        <span id="burger"><i class="fa-solid fa-bars"></i></span>
+        <span id="close"><i class="fa-solid fa-x"></i></span>
+    </nav>
+    <div id="dropDown">
+        <a href="./tabela.html"><li>Tabela</li></a>
+        <a href="./rodada.html"><li>Rodada da semana</li></a>
+        <a href="./artilheiros.html"><li>Pagina</li></a>
+        <a href="./pesquisa.html"><li>Pesquisa de jogadores</li></a>
+    </div>
+  </header>
+    
+  <!-- <button onclick="tabela()">a</button> -->
+  <div class="section">
+      <table class="table table-dark">
+        <thead>
+            <h1>Tabela Brasileirão 2023</h1>
+            <tr>
+              <th scope="col">Posição</th>
+              <th scope="col" class="equipeT">Equipe</th>
+              <th scope="col">Jgs</th>
+              <th scope="col">Pts</th>
+              <th scope="col">GP</th>
+              <th scope="col">GC</th>
+              <th scope="col">V</th>
+              <th scope="col">E</th>
+              <th scope="col">D</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table-info">
+              <th scope="row" class="pos">1</th>
+              <td class="time">..</td>
+              <td class="jogos"></td>
+              <td class="pontos">..</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr class="table-info">
+              <th scope="row" class="pos">2</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr class="table-info">
+              <th scope="row" class="pos">3</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr class="table-info">
+              <th scope="row" class="pos">4</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr class="table-warning">
+              <th scope="row" class="pos">5</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr class="table-warning">
+              <th scope="row" class="pos">6</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr class="table-success">
+              <th scope="row" class="pos">7</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr class="table-success">
+              <th scope="row" class="pos">8</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr class="table-success">
+              <th scope="row" class="pos">9</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr class="table-success">
+              <th scope="row" class="pos">10</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr class="table-success">
+              <th scope="row" class="pos">11</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr class="table-success">
+              <th scope="row" class="pos">12</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr>
+              <th scope="row" class="pos">13</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr>
+              <th scope="row" class="pos">14</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr>
+              <th scope="row" class="pos">15</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr>
+              <th scope="row" class="pos">16</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row" class="pos">17</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row" class="pos">18</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row" class="pos">19</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row" class="pos">20</th>
+              <td class="time">Dado 1</td>
+              <td class="jogos"></td>
+              <td class="pontos">Dado 3</td>
+              <td class="golsPro"></td>
+              <td class="golsContra"></td>
+              <td class="vitorias"></td>
+              <td class="empates"></td>
+              <td class="derrotas"></td>
+            </tr>
+        </tbody>
+      </table>
+    <a href="./rodada.html">Ver rodada da semana</a>
+    <br>
+  </div>
+
+
+    <script src="../js/tabela.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="https://kit.fontawesome.com/5dfb4ac132.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

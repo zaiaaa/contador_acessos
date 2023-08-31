@@ -1,0 +1,99 @@
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #002E79;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    color: #A7F901;
+    top: 0;
+    z-index: 100;
+}
+header img{
+    width: 5rem;
+    border-radius: 50%;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+header nav li{
+    margin: 0 1rem;
+    font-size: 18px;
+}
+header nav li a{
+    text-decoration: none;
+    color: #A7F901;;
+    transition: .5s;
+}
+header nav li a:hover{
+    text-decoration: none;
+    color: #e2ffa7;;
+}
+#burger{
+    display: none;
+    font-size: 23px;     
+    cursor: pointer;  
+}
+#close{
+    display: none;
+    font-size: 23px;     
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    #burger{
+        display: block;
+    }
+    header nav li{
+        display: none;
+    }
+    header nav{
+        flex-direction: row;
+    }
+    header nav span{
+        margin: .5rem 0;
+    }
+    header{
+        flex-direction: column;
+    }
+    .noticia{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .noticia img{
+        width: 100%;
+    }
+    
+    .texto{
+        width: 100%;
+    }
+}
+
+#dropDown{
+    position: fixed;
+    background-color: #002E79;
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    display: none;
+    z-index: 100;
+}
+
+#dropDown li{
+    padding: 1rem 0;
+    width: 100vw;
+}
+#dropDown a{
+    color: #A7F901;
+    text-decoration: none;
+    width: 100%;
+}
+#dropDown li:hover{
+    background-color: #003389;
+    cursor: pointer;
+}

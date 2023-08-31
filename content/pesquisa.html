@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/pesquisa.css">
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="../assets/logo.jpg" alt="" srcset=""></a>
+        <nav>
+            <li><a href="./tabela.html">Tabela</a></li>
+            <li><a href="./rodada.html">Rodada da semana</a></li>
+            <li><a href="./artilheiros.html">Artilheiros</a></li>
+            <li><a href="./pesquisa.html">Pesquisa de jogadores</a></li>
+            <span id="burger"><i class="fa-solid fa-bars"></i></span>
+            <span id="close"><i class="fa-solid fa-x"></i></span>
+        </nav>
+        <div id="dropDown">
+            <a href="./tabela.html"><li>Tabela</li></a>
+            <a href="./rodada.html"><li>Rodada da semana</li></a>
+            <a href="./artilheiros.html"><li>Artilheiros</li></a>
+            <a href="./pesquisa.html"><li>Pesquisa de jogadores</li></a>
+        </div>
+    </header>
+
+    <section id="ct_cards">
+        <div class="pesquisa">
+            <input type="text" name="pesquisa" id="pesquisa" placeholder="Buscar jogador...">
+            <button type="button" id="botao"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="card-jogador">
+            <div class="card-header">
+                <img id="player_photo" src="../assets/logo.jpg" alt="" srcset="">
+                <span>#9</span>
+            </div>
+            <h1 id="name">Tiquinho Soares</h1>
+            <div class="stats">
+                <h3 align="center" class="time">Botafogo</h3>
+                <h5 align="center" class="matches">10 Jogos</h5>
+                <ul class="stats-player">
+                    <li align="center">Gols: <span id="gols">16</span></li>
+                    <li class="assistencias">Assistências: <span id="assists" align="center">5</span></li>
+                    <li>G+A: <span id="ga">22</span></li>
+                </ul>
+                <h4 align="center" id="age">32 anos</h4>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/pesquisa.js"></script>
+    <script src="https://kit.fontawesome.com/5dfb4ac132.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+#section{
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #053786;
+}
+#section h1{
+    color: #A7F901;
+}
+
+.table td{
+    width: 30%;
+    margin-bottom: 2rem; 
+    color: #A7F901;
+}
+.table th{
+    color: #A7F901;
+}
+
+@media screen and (max-width: 1000px) {
+    #section{
+        padding-top: 13rem;    
+        text-align: center;
+    }
+}
+
+h1{
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
